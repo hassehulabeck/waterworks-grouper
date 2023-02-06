@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    h2 {
+        @apply text-slate-800 text-xl mb-3;
+    }
+    h3 {
+        @apply text-lime-700 mt-5 mb-1 text-lg;
+    }
+    label {
+        display: block;
+    }
+    .aqua {
+        @apply bg-red-200;
+    }
+    .h2o {
+        @apply bg-teal-300;
+    }
+    .hydro {
+        @apply bg-lime-400;
+    }
+    .vattenfall {
+        @apply bg-blue-200;
+    }
+    .fors {
+        @apply bg-yellow-300;
+    }
+    
+}
